@@ -13,7 +13,7 @@ async function generateFact() {
 /**
  * Generate facts about mulitple numbers
  */
-async function generateFact() {
+async function generateFacts() {
   const facts = await axios({ url: `${BASE_URL}/1,2,3` });
 
   return facts;
